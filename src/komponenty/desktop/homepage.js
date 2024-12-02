@@ -12,9 +12,49 @@ import { FaFacebook } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
+import gsap from "gsap";
 
 
 function DesktopHomepage() {
+
+  useEffect(() => {
+    
+    gsap.to(".desktop-informace-o-nas-1", {
+      opacity: 1,
+      x: 0,
+      rotation: 360,
+      duration: 2,
+      delay: 2,
+      ease: "bounce.out",
+    });
+  
+    gsap.to(".desktop-informace-o-nas-2", {
+      opacity: 1,
+      x: 0,
+      rotation: 360,
+      duration: 2,
+      delay: 2,
+      ease: "bounce.out",
+    });
+
+    gsap.to(".desktop-ctverecek-1", { 
+      duration: 2,
+      x: 0,
+      rotation: 360*2,
+      repeat: 1000,
+      delay: 2,
+    });
+
+    gsap.to(".desktop-ctverecek-2", { 
+      duration: 2,
+      x: 0,
+      rotation: 360*2,
+      repeat: 1000,
+      delay: 1,
+    });
+
+  }, []);
+
 
   return (  
     <div className="desktop-pozadi-1">
