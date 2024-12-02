@@ -14,7 +14,7 @@ import { Link } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
 import gsap from "gsap";
 
-
+//animace gsap
 function DesktopHomepage() {
 
   useEffect(() => {
@@ -55,6 +55,7 @@ function DesktopHomepage() {
 
   }, []);
 
+  //konec animaci
 
   return (  
     <div className="desktop-pozadi-1">
