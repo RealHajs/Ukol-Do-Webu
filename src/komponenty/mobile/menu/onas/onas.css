@@ -1,0 +1,27 @@
+@media only screen and (max-width: 767px) { 
+
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+    *{
+        scroll-behavior: smooth !important;
+        font-family: 'Oswald', sans-serif;
+    }
+
+
+
+
+
+
+    .social-specialist-onas-minus-1{
+        margin-bottom: -10%;
+        position: relative;
+    }
+
+
+
+
+
+
+
+
+  }

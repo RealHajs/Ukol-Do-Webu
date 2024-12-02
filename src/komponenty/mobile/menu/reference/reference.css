@@ -1,0 +1,95 @@
+@media only screen and (max-width: 767px) { 
+
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+    *{
+        scroll-behavior: smooth !important;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .social-specialist-mobile-kontakt-pozadi-1{
+        position: relative;
+        min-height: 100vh;
+        width: 100%;
+        z-index: 0;
+        background: linear-gradient(rgb(31, 31, 31), rgb(9, 34, 34),rgb(31, 31, 31));
+        z-index: 2;
+    }
+
+    .social-specialist-main-homepage-text-6-reference{
+        color: white;
+        position: relative;
+        text-align: left;
+        margin-left: 7%;
+        margin-top: 20%;
+        font-size: 30px !important;
+        z-index: 2;
+        margin-right: 0%;
+        background-color: transparent;
+        margin-bottom: 0%;
+    }
+
+
+
+
+
+    .social-specialist-main-homepage-text-14{
+        color: white;
+        position: relative;
+        text-align: center;
+        margin-left: 0%;
+        margin-top: 25%;
+        font-size: 11px !important;
+        z-index: 2;
+        background-color: transparent;
+        margin-bottom: 0%;
+        font-weight: normal;
+    }
+
+
+
+    .container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: 7%;
+        margin-top: 3%; 
+    }
+    
+    .social-specialist-img-reference-1-text, 
+    .social-specialist-img-reference-2-text {
+        color: black;
+        position: relative;
+        text-align: center;
+        font-size: 11px !important;
+        z-index: 2;
+        background-color: white;
+        margin-bottom: 0%;
+        font-weight: bold;
+        text-decoration: underline;
+        width: 25%;
+        height: 3vh;
+        border-radius: 6px;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 2%;
+    }
+    
+    .social-specialist-img-reference-2-text {
+        margin-top: 0;
+    }
+    
+
+    .bez-odkaz{
+        text-decoration: none;
+        color: black !important;
+    }
+
+
+
+
+
+
+  }

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZABEZPEČENÁ REGISTRACE SOCIAL SPECIALIST</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" alt="profile picture" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+    <br><br><br><br>
+    <div class="body-kontaktni-formular"></div>
+    <h2 class="registrace-terminu">Registrace Termínů</h2>
+    <h5 class="registrace-terminu2">Social Specialist</h5>
+    <form action="process_form.php" method="POST">
+        <label for="datum"><b>Datum:</b></label>
+        <input type="date" id="datum" name="datum" min="2024-08-01" max="2024-08-31" required><br><br>
+        <label for="email"><b>Email:</b></label>
+        <input placeholder="kontakt@webmajstr.cz" type="email" id="email" name="email" required><br><br>
+        <label for="telefon"><b>Telefon (volitelné):</b></label>
+        <input placeholder="721 020 161" type="tel" id="telefon" name="telefon"><br><br>
+        <input type="submit" value="Registrovat">
+    </form>
+    <!-- <h3>Volné termíny:</h3> -->
+    <div id="dates"></div>
+    <script>
+        // JavaScript for displaying available and unavailable dates
+        document.addEventListener('DOMContentLoaded', function() {
+            fetch('get_dates.php')
+                .then(response => response.json())
+                .then(data => {
+                    const datesDiv = document.getElementById('dates');
+                    data.forEach(date => {
+                        const dateElement = document.createElement('div');
+                        dateElement.textContent = date.datum;
+                        dateElement.className = date.available ? 'available' : 'unavailable';
+                        datesDiv.appendChild(dateElement);
+                    });
+                });
+        });
+    </script>
+</body>
+</html>

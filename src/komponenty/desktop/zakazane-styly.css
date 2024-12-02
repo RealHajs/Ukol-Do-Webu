@@ -1,0 +1,141 @@
+@media only screen and (max-width: 1023px), only screen and (min-width: 1921px) {
+
+    @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+    *{
+        scroll-behavior: smooth !important;
+        font-family: 'Inter', Arial, sans-serif;
+    }
+    
+    .desktop-pozadi-1,
+    .desktop-pozadi-2,
+    .desktop-navbar-1,
+    .navbar-container-desktop,
+    .navbar-left-desktop,
+    .navbar-right-desktop,
+    .navbar-right-desktop a,
+    .navbar-right-desktop a:hover,
+    .desktop-navbar-1 a,
+    .desktop-navbar-1 a:hover,
+    .desktop-text-homepage-1,
+    .desktop-orange,
+    .desktop-text-homepage-2,
+    .desktop-homepage-vice-info-button,
+    .desktop-homepage-vice-info-button a,
+    .desktop-button-1,
+    .desktop-ikona-1,
+    .desktop-ikona-1:hover,
+    .desktop-ctverecek-1,
+    .desktop-ctverecek-text-1,
+    .desktop-ctverecek-2,
+    .desktop-ctverecek-text-2,
+    .desktop-informace-o-nas-1,
+    .desktop-informace-o-nas-2,
+    .desktop-button-info-1,
+    .desktop-button-info-2,
+    .desktop-reference-1,
+    .desktop-pozadi-3,
+    .desktop-reference-1-img,
+    .desktop-reference-2-img,
+    .desktop-reference-3-img,
+    .desktop-reference-1-img:hover,
+    .desktop-reference-2-img:hover,
+    .desktop-reference-3-img:hover,
+    .desktop-reference-3-text-1,
+    .desktop-reference-3-text-2,
+    .desktop-reference-3-text-3,
+    .desktop-reference-3-text-4,
+    .desktop-reference-3-text-2:hover,
+    .desktop-reference-3-text-3:hover,
+    .desktop-reference-3-text-4:hover,
+    .desktop-button-reference-1,
+    .desktop-pozadi-4,
+    .desktop-text-dalsi-info-1,
+    .desktop-text-decoration-1,
+    .desktop-reference-text-page-2,
+    .desktop-lighter-font-weight,
+    .desktop-footer-pozadi,
+    .desktop-ctverecek-5,
+    .desktop-ctverecek-text-5,
+    .desktop-button-footer,
+    .desktop-carka-kontakt,
+    .desktop-kontakt-1,
+    .desktop-kontakt-2,
+    .desktop-kontakt-3,
+    .desktop-ikona1-footer,
+    .desktop-ikona2-footer,
+    .desktop-ikona3-footer,
+    .desktop-ikona1-footer:hover,
+    .desktop-ikona2-footer:hover,
+    .desktop-ikona3-footer:hover,
+    .desktop-hover-effect,
+    .desktop-hover-effect:hover,
+    .desktop-footer-mapa,
+    .desktop-footer-mapa:hover,
+    .desktop-footer-last,
+    #video-desktop-background-delete-mobile {
+        display: none !important;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 768px) { 
+
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+    * {
+        scroll-behavior: smooth !important;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .social-specialist-mobile-pozadi-1,
+    .social-specialist-main-homepage-text-1-cyan-1,
+    .social-specialist-mobile-cyan,
+    .social-specialist-main-text-1,
+    .social-specialist-main-text-2,
+    .social-specialist-podtrzeni-1,
+    .social-specialist-podtrzeni-2,
+    .social-specialist-img-logo-1,
+    .sdaddadd,
+    .sdaddadd2,
+    .social-specialist-main-homepage-text-1,
+    .social-specialist-main-homepage-text-1-cyan,
+    .social-specialist-main-homepage-text-3,
+    .social-specialist-main-homepage-text-2,
+    .social-specialist-mobile-instagram,
+    .social-specialist-mobile-tiktok,
+    .social-specialist-mobile-pozadi-2,
+    .social-specialist-podtrzeni-3,
+    .bezpozadi,
+    .bezpozadi2,
+    .ikonka,
+    .social-specialist-main-homepage-text-15,
+    .social-specialist-main-homepage-text-16,
+    .asdadadadad,
+    .asdadadadad2,
+    .social-specialist-main-homepage-text-4,
+    .social-specialist-main-homepage-text-5,
+    .social-specialist-main-homepage-text-6,
+    .social-specialist-img-reference-1,
+    .social-specialist-img-matthew,
+    .social-specialist-main-homepage-text-7,
+    .social-specialist-main-homepage-text-8,
+    .social-specialist-main-homepage-text-9,
+    .social-specialist-img-hajs,
+    .carkasadadsda,
+    .social-specialist-main-homepage-text-10,
+    .social-specialist-main-homepage-mapa,
+    .social-specialist-main-homepage-text-11,
+    .social-specialist-mobile-instagram2,
+    .social-specialist-mobile-tiktok2,
+    .social-specialist-main-homepage-text-12,
+    .social-specialist-main-homepage-text-13,
+    .social-specialist-main-homepage-text-14,
+    .social-specialist-text-decoration-none {
+        display: none;
+    }
+
+}
+

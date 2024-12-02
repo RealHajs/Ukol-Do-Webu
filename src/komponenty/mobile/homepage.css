@@ -1,0 +1,583 @@
+@media only screen and (max-width: 767px) { 
+
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+    *{
+        scroll-behavior: smooth !important;
+        font-family: 'Oswald', sans-serif;
+    }
+
+
+    .social-specialist-mobile-pozadi-1{
+        position: relative;
+        min-height: 510vh;
+        width: 100%;
+        z-index: 0;
+        background: linear-gradient(rgb(31, 31, 31), rgb(9, 34, 34),rgb(31, 31, 31));
+        z-index: 2;
+    }
+
+    .social-specialist-main-homepage-text-1-cyan-1{
+        color: cyan;
+        position: relative;
+        text-align: center;
+        margin-top: 20%;
+        font-weight: bold;
+        font-size: 40px;
+        margin-bottom: 0%;
+    }
+    
+
+    .social-specialist-mobile-cyan{
+        color: cyan;
+    }
+
+
+
+
+    .social-specialist-main-text-1{
+        color: cyan;
+        position: relative;
+        text-align: left;
+        margin-left: 7%;
+        margin-top: 15% !important;
+        font-size: 20px;
+        margin-bottom: 0%;
+    }
+
+
+
+
+    .social-specialist-main-text-2{
+        color: white;
+        position: relative;
+        text-align: left;
+        margin-left: 7%;
+        margin-top: 2% !important;
+        font-size: 45px !important;
+        margin-bottom: 0%;
+        margin-right: 10% !important;
+    }
+
+
+    .social-specialist-podtrzeni-1{
+        position: relative;
+        background-color: white;
+        margin-left: 7%;
+        margin-top: 5%;
+        width: 80%;
+        height: 0.1vh;
+        border-radius: 10px;
+        margin-bottom: 0%;
+    }
+
+    .social-specialist-podtrzeni-2{
+        position: relative;
+        background-color: cyan;
+        margin-left: 7%;
+        margin-top: 3%;
+        width: 50%;
+        height: 0.1vh;
+        border-radius: 10px;
+    }
+
+
+
+
+    .social-specialist-img-logo-1{
+        position: relative;
+        width: 9%;
+        height: auto;
+        margin-top: -100%;
+        margin-left: 6%;
+    }
+
+
+
+
+    .sdaddadd{
+        width: 30%;
+        height: 5vh;
+        border: 1px solid white;
+        border-radius: 10px;
+        color: white;
+        background-color: rgb(59, 59, 59);
+        margin-top: 7%;
+        margin-left: 7%;
+        font-size: 15px;
+    }
+
+
+    .sdaddadd2{
+        width: 30%;
+        height: 5vh;
+        border: 1px solid white;
+        border-radius: 10px;
+        color: white;
+        background-color: rgb(46, 65, 65);
+        margin-left: 7%;
+        font-size: 15px;
+    }
+
+
+
+    .social-specialist-main-homepage-text-1{
+        color: white;
+        position: relative;
+        text-align: left;
+        margin-left: 7%;
+        margin-top: 15% !important;
+        font-size: 45px !important;
+        margin-bottom: 0%;
+        margin-right: 10% !important;  
+    }
+
+
+
+
+    .social-specialist-main-homepage-text-1-cyan{
+        color: cyan;
+        position: relative;
+        text-align: center;
+        margin-top: 20%;
+        font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 0%;
+    }
+
+
+
+    
+    .social-specialist-main-homepage-text-3{
+        color: white;
+        position: relative;
+        text-align: center;
+        margin-top: 3%;
+        font-size: 30px !important;
+        z-index: 2;
+        background-color: transparent;
+        margin-bottom: 0%;
+        font-weight: normal;
+    }
+
+
+    .social-specialist-main-homepage-text-2{
+        color: cyan;
+        position: relative;
+        text-align: left;
+        margin-left: 7%;
+        margin-top: 3%;
+        font-size: 20px !important;
+        margin-bottom: 0%;
+        text-decoration: underline;
+        font-weight: normal;
+    }
+
+
+
+
+    .social-specialist-mobile-instagram{
+        color: white;
+        position: relative;
+        text-align: left;
+        margin-left: 7%;
+        margin-top: 7%;
+        font-size: 30px !important;
+        margin-bottom: -0%;
+    }
+
+
+    .social-specialist-mobile-tiktok{
+        color: white;
+        position: relative;
+        text-align: left;
+        margin-left: 7%;
+        margin-top: 0%;
+        font-size: 28px !important;
+    }
+
+
+
+    .social-specialist-mobile-pozadi-2{
+        background: linear-gradient(rgb(14, 54, 54), rgb(31, 31, 31));
+        position: relative;
+        height: 100vh;
+        width: 100%;
+        z-index: 1;
+    }
+
+
+
+
+
+    .social-specialist-podtrzeni-3{
+        position: relative;
+        background-color: white;
+        margin-left: 7%;
+        margin-top: 3%;
+        width: 83%;
+        height: 0.1vh;
+        border-radius: 10px;
+        margin-bottom: 0%;
+    }
+
+
+
+
+    .bezpozadi{
+        background-color: rgb(59, 59, 59);
+    }
+
+
+    .bezpozadi2{
+        background-color: rgb(46, 65, 65);
+    }
+
+
+
+
+      .ikonka{
+        color: white;
+        position: relative;
+        margin-top: 10%;
+        margin-left: 10%;
+        font-size: 70px !important;
+        z-index: 2;
+        margin-bottom: 0% !important;
+    }
+
+
+    .social-specialist-main-homepage-text-15{
+        color: white;
+        position: relative;
+        text-align: left;
+        margin-top: 3%;
+        margin-left: 10%;
+        font-size: 23px;
+        margin-bottom: 0% !important;
+        font-weight: normal;
+    }
+
+
+    .social-specialist-main-homepage-text-16{
+        color: rgb(207, 207, 207);
+        position: relative;
+        text-align: left;
+        margin-top: 3%;
+        margin-left: 10%;
+        margin-right: 15%;
+        font-size: 12px;
+        margin-bottom: 0% !important;
+        font-weight: lighter !important;
+    }
+
+
+
+    .asdadadadad{
+        color: white;
+        position: relative;
+        text-align: left;
+        margin-top: 3%;
+        margin-left: 9%;
+        font-size: 15px;
+        margin-bottom: 0% !important;
+        font-weight: normal;
+    }
+
+
+    .asdadadadad2{
+        color: white;
+        position: relative;
+        text-align: left;
+        margin-top: 3%;
+        margin-left: 9%;
+        font-size: 15px;
+        margin-bottom: 10% !important;
+        font-weight: normal;
+    }
+
+
+
+
+
+    .social-specialist-main-homepage-text-4{
+        color: white;
+        position: relative;
+        text-align: center;
+        margin-top: 15%;
+        font-size: 15px !important;
+        z-index: 2;
+        margin-right: 0%;
+        background-color: transparent;
+        margin-bottom: 0% !important;
+        font-weight: normal;
+    }
+
+
+    .social-specialist-main-homepage-text-5{
+        color: cyan;
+        position: relative;
+        text-align: center;
+        margin-top: 2%;
+        font-size: 15px !important;
+        z-index: 2;
+        margin-right: 0%;
+        background-color: transparent;
+        margin-bottom: 0%;
+        text-decoration:white underline;
+    }
+
+
+
+    .social-specialist-main-homepage-text-6{
+        color: white;
+        position: relative;
+        text-align: left;
+        margin-left: 7%;
+        margin-top: 32%;
+        font-size: 30px !important;
+        z-index: 2;
+        margin-right: 0%;
+        background-color: transparent;
+        margin-bottom: 0%;
+    }
+
+
+
+    .social-specialist-img-reference-1{
+        position: relative;
+        width: 85%;
+        height: auto;
+        border-radius: 10px;
+        border: 1px solid white;
+        margin-top: 10%;
+        margin-left: 7.5%;
+    }
+
+
+
+
+    .social-specialist-img-matthew{
+        position: relative;
+        width: 60%;
+        height: auto;
+        border-radius: 10px;
+        border: 2px solid white;
+        margin-top: 10%;
+        margin-left: 7%;
+        margin-bottom: 6%;
+    }
+
+
+
+
+    .social-specialist-main-homepage-text-7{
+        color: cyan;
+        position: relative;
+        text-align: left;
+        margin-left: 7%;
+        margin-top: -3%;
+        font-size: 15px !important;
+        z-index: 2;
+        margin-right: 0%;
+        background-color: transparent;
+        margin-bottom: 0%;
+        font-weight: normal;
+    }
+
+
+
+    .social-specialist-main-homepage-text-8{
+        color: white;
+        position: relative;
+        text-align: left;
+        margin-left: 7%;
+        margin-top: 1%;
+        font-size: 25px !important;
+        z-index: 2;
+        margin-right: 0%;
+        background-color: transparent;
+        margin-bottom: 0%; 
+    }
+
+
+
+    .social-specialist-main-homepage-text-9{
+        color: white;
+        position: relative;
+        text-align: left;
+        margin-left: 7%;
+        margin-top: 7%;
+        font-size: 14px !important;
+        z-index: 2;
+        margin-right: 0%;
+        background-color: transparent;
+        margin-bottom: 0%;
+        font-weight: normal;
+        text-decoration: underline;
+    }
+
+
+
+
+    .social-specialist-img-hajs{
+        position: relative;
+        width: 60%;
+        height: auto;
+        border-radius: 10px;
+        border: 2px solid white;
+        margin-top: 20%;
+        margin-left: 7%;
+        margin-bottom: 6%;
+    }
+
+
+
+
+    .carkasadadsda{
+        position: relative;
+        background-color: white;
+        margin-left: 7%;
+        margin-top: 20%;
+        width: 83%;
+        height: 0.1vh;
+        border-radius: 10px;
+        margin-bottom: -10%;
+    }
+
+
+
+    .social-specialist-main-homepage-text-10{
+        color: cyan;
+        position: relative;
+        text-align: left;
+        margin-left: 7%;
+        margin-top: 2%;
+        font-size: 14px !important;
+        z-index: 2;
+        margin-right: 0%;
+        background-color: transparent;
+        margin-bottom: 0%;
+        font-weight: normal;
+    }
+
+
+
+
+    .social-specialist-main-homepage-mapa{
+        position: relative;
+        width: 86%;
+        height: auto;
+        border-radius: 10px;
+        border: 2px solid white;
+        margin-top: 10%;
+        margin-left: 7%;
+        margin-bottom: 0%;
+    }
+
+
+
+    .social-specialist-main-homepage-text-11{
+        color: white;
+        position: relative;
+        text-align: center;
+        margin-left: 0%;
+        margin-top: 3%;
+        font-size: 12px !important;
+        z-index: 2;
+        margin-right: 0%;
+        background-color: transparent;
+        margin-bottom: 0%;
+        font-weight: normal;
+    }
+
+
+
+
+
+
+    .social-specialist-mobile-instagram2{
+        color: white;
+        position: relative;
+        text-align: left;
+        margin-left: 31%;
+        margin-top: 16%;
+        font-size: 30px !important;
+        margin-bottom: 0%;
+    }
+
+
+    .social-specialist-mobile-tiktok2{
+        color: white;
+        position: relative;
+        text-align: left;
+        margin-left: 7%;
+        margin-top: 0%;
+        font-size: 28px !important;
+    }
+
+
+
+
+    .social-specialist-main-homepage-text-12{
+        color: white;
+        position: relative;
+        text-align: center;
+        margin-left: 0%;
+        margin-top: 15%;
+        font-size: 20px !important;
+        z-index: 2;
+        background-color: transparent;
+        margin-bottom: 0%;
+        font-weight: normal;
+    }
+
+
+
+    .social-specialist-main-homepage-text-13{
+        color: white;
+        position: relative;
+        text-align: center;
+        margin-left: 0%;
+        margin-top: 5%;
+        font-size: 15px !important;
+        z-index: 2;
+        background-color: transparent;
+        margin-bottom: 0%;
+        font-weight: normal;
+    }
+
+
+
+
+
+    .social-specialist-main-homepage-text-14{
+        color: white;
+        position: relative;
+        text-align: center;
+        margin-left: 0%;
+        margin-top: 25%;
+        font-size: 11px !important;
+        z-index: 2;
+        background-color: transparent;
+        margin-bottom: 0%;
+        font-weight: normal;
+    }
+
+
+
+    .social-specialist-text-decoration-none{
+        text-decoration: none !important;
+    }
+
+
+
+
+
+
+
+
+
+
+
+  }

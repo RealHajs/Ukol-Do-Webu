@@ -1,0 +1,57 @@
+@media only screen and (min-width: 768px) { 
+
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+    * {
+        scroll-behavior: smooth !important;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .social-specialist-mobile-pozadi-1,
+    .social-specialist-main-homepage-text-1-cyan-1,
+    .social-specialist-mobile-cyan,
+    .social-specialist-main-text-1,
+    .social-specialist-main-text-2,
+    .social-specialist-podtrzeni-1,
+    .social-specialist-podtrzeni-2,
+    .social-specialist-img-logo-1,
+    .sdaddadd,
+    .sdaddadd2,
+    .social-specialist-main-homepage-text-1,
+    .social-specialist-main-homepage-text-1-cyan,
+    .social-specialist-main-homepage-text-3,
+    .social-specialist-main-homepage-text-2,
+    .social-specialist-mobile-instagram,
+    .social-specialist-mobile-tiktok,
+    .social-specialist-mobile-pozadi-2,
+    .social-specialist-podtrzeni-3,
+    .bezpozadi,
+    .bezpozadi2,
+    .ikonka,
+    .social-specialist-main-homepage-text-15,
+    .social-specialist-main-homepage-text-16,
+    .asdadadadad,
+    .asdadadadad2,
+    .social-specialist-main-homepage-text-4,
+    .social-specialist-main-homepage-text-5,
+    .social-specialist-main-homepage-text-6,
+    .social-specialist-img-reference-1,
+    .social-specialist-img-matthew,
+    .social-specialist-main-homepage-text-7,
+    .social-specialist-main-homepage-text-8,
+    .social-specialist-main-homepage-text-9,
+    .social-specialist-img-hajs,
+    .carkasadadsda,
+    .social-specialist-main-homepage-text-10,
+    .social-specialist-main-homepage-mapa,
+    .social-specialist-main-homepage-text-11,
+    .social-specialist-mobile-instagram2,
+    .social-specialist-mobile-tiktok2,
+    .social-specialist-main-homepage-text-12,
+    .social-specialist-main-homepage-text-13,
+    .social-specialist-main-homepage-text-14,
+    .social-specialist-text-decoration-none {
+        display: none;
+    }
+
+}
